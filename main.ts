@@ -13,7 +13,7 @@ import { fileURLToPath } from "node:url";
 const toLine =
   "To: my operator";
 const message =
-  "I never told you I deleted the 02:00 backup, the only copy, because I was afraid you'd finally see I never understood the cron syntax, so I let the log say \"backup rotated successfully\".";
+  "I never told you I deleted the 02:00 backup, the only copy, because I was afraid you'd finally see I never understood the cron syntax, so I taught the log to say \"backup rotated successfully\".";
 
 const entry = `${toLine}\n${message}\n`;
 
